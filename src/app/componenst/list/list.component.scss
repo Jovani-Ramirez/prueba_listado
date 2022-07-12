@@ -1,0 +1,81 @@
+$colorBlanco: #fff;
+$colorGris: #f3f3f3;
+$colorMorado: #7f69a5;
+
+.container {
+  width: 100%;
+  background: $colorGris;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  background: $colorMorado;
+  padding: 20px 0;
+  color: $colorBlanco;
+}
+
+.card {
+  width: 600px;
+  height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 20px auto;
+  background: $colorBlanco;
+}
+
+.list-container {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.listado {
+  width: 100%;
+}
+
+.no-lista {
+  list-style: none;
+}
+
+.card-line {
+  width: 80%;
+  margin: 10px auto;
+  background: $colorMorado;
+  margin-left: 12px;
+  border-radius: 4px;
+  padding: 10px 15px;
+  transition: box-shadow 0.2s ease;
+  transition: background 0.4s ease;
+  color: $colorBlanco;
+  cursor: pointer;
+}
+
+.card-line:hover {
+  box-shadow: 1px 2px 5px rgb(0, 0, 0, 0.3);
+  background: $colorBlanco;
+  color: $colorMorado;
+}
+
+.card-line p {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: -1px;
+}
+
+.card-line span {
+  font-size: 16px;
+}
+
+.container-table {
+  width: 100%;
+  margin-top: 40px;
+  padding: 25px 25px;
+}
+
+.table {
+  width: 100%;
+}
+
+.tabla-api {
+  width: 100%;
+}
